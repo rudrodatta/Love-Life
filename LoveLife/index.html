@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <title>Love Life</title>
+</head>
+<body>
+
+     <div class="slider">
+            <div class="text-center">LOVE LIFE</div>
+                <form class="form-inline w-75 m-auto">
+                    <div class="form">
+                        <input type="text" name="" class="form-control text-center" placeholder="Your Name" id="name" >
+                    </div>
+                    <div class="pl-4 pr-4">
+                         <span> + </span>
+                    </div>
+                    <div class="form">
+                         <input type="text" name="" class="form-control text-center" placeholder=" Love Name" id="lname">
+                    </div>
+                </form> <br>
+                <div class="btn">
+                    <button  class="btn btn-success w-50" onclick="checkloveper()"> click </button>
+                </div>
+                <div>
+                    <input type="text" name="" placeholder="LOVE PERCENTAGE" id="lovevalue"><br>
+                   <!--<input type="text" name="" placeholder=" " id="lovevalues">--> 
+                </div>
+                <div class="footer ">Happy RelationShip</div><br>
+                <div id="test"></div><br>
+                <div class="img">
+                    <img src="https://www.heart2heartrelationships.com/wp-content/uploads/2018/06/heart.gif" class="img-fluid bg-white">
+                </div>
+                
+    </div> 
+       
+
+               
+        
+        
+        
+                  <!--  <div class="icon" id="lovevalue2">
+                        <span>90%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                    </div><br><br>
+                    <div class="icon" id="lovevalue3">
+                        <span>80%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                       
+                    </div><br><br>
+                    <div class="icon" id="lovevalue4">
+                        <span>70%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                       
+                    </div><br><br>
+                    <div class="icon" id="lovevalue5">
+                        <span>60%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        
+                    </div><br><br>
+                    <div class="icon" id="lovevalue6">
+                        <span>50%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+            
+                    </div><br><br>
+                    <div class="icon" id="lovevalue7">
+                        <span>40%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+            
+                    </div><br><br>
+                    <div class="icon" id="lovevalue8">
+                        <span>30%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                    </div><br><br>
+                    <div class="icon" id="lovevalue9">
+                        <span>20%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+            
+                    </div><br><br>
+                    <div class="icon" id="lovevalue0">
+                        <span>10%</span>
+                        <span>love</span>
+                        <i class="fa fa-heart" style="font-size:24px"></i>
+            
+                    </div><br><br>
+               
+                </div>-->
+        
+
+</body>
+</html>

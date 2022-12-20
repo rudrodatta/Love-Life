@@ -1,0 +1,27 @@
+body{
+	background-color: rgb(240, 35, 35);
+	font-size: 30px;
+	text-align: center;
+	-webkit-text-fill-color: rgb(255, 7, 7);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding:50px 50px;
+	border: 10px solid rgb(247, 107, 107);
+   }
+.slider{
+	background: rgb(255, 255, 255);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	animation : slide 5s infinite;
+}
+.slider .img{
+	width: 100%;
+	height: 100%;
+	
+}
+	
+
+
+
+ 
